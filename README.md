@@ -17,7 +17,7 @@ In this coding exercies I am creating a static page where user is able to enter 
 
 ## Built with
 
-Jest, GitHub Actions, Javascript, HTML, CSS, Figma, VScode
+Jest, GitHub Actions, Javascript, HTML, CSS, Figma, VScode, Babel
 
 ## I am pleased with
 
