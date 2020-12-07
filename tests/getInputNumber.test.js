@@ -18,13 +18,11 @@ describe("Input Number tests: ", () => {
     expect(getInputNumber(21.1234)).toEqual(21);
   });
 
-  test("input should be positive number", () => {
-    expect(getInputNumber("eleven")).toThrowError(
-      "Error! Number Cannot be negative! Please insert positive integer."
-    );
+  test("input should not be a string", () => {
+    expect(getInputNumber("eleven")).toBe("Error! The input is not a number!");
   });
 
   test("input should be positive number", () => {
-    expect(getInputNumber(-20)).toThrowError("Error! Should should be bigger than 1");
+    expect(getInputNumber(-20)).toBe("Error! Should should be bigger than 1");
   });
 });
