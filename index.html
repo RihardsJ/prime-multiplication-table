@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" type="text/css" />
+    <title>Prime Table</title>
+  </head>
+  <body>
+    <!-- page header with title -->
+    <header><h1 class="title">Prime Table</h1></header>
+
+    <!-- main section of the page with input form and display where prime table appends -->
+    <main>
+      <form id="userForm">
+        <input id="input" type="number" min="1" placeholder="3" />
+        <input id="submitButton" type="submit" />
+      </form>
+      <div id="display"></div>
+    </main>
+    <!-- modules -->
+    <script type="module" src="./assets/main.js"></script>
+    <script type="module" src="./assets/getInputNumer.js"></script>
+    <script type="module" src="./assets/primeNumbers.js"></script>
+    <script type="module" src="./assets/multiplicationTable.js"></script>
+  </body>
+</html>

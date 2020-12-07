@@ -1,4 +1,4 @@
-const multiplicationTable = require("../assets/multiplicationTable");
+import multiplicationTable from "../assets/multiplicationTable";
 
 // test if function exists
 test("multiplicationTable function to be defined", () => {
