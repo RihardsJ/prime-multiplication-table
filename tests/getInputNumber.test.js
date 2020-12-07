@@ -1,6 +1,6 @@
-const getInputNumber = require("../assets/getInputNumber");
+const getInputNumber = require("../assets/getInputNumer");
 
 // test if function exists
 test("getInputNumber function to be defined", () => {
-  expect(getInputNumber).toBeDefinded();
+  expect(getInputNumber()).toBeDefined();
 });
