@@ -1,0 +1,1 @@
+# prime-multiplication-table
