@@ -1,5 +1,6 @@
 const getInputNumer = (input) => {
-  let N = 0;
+  let N = input;
+  N += N;
   return N;
 };
 
