@@ -1,8 +1,8 @@
-const N = require("./getInputNumer");
+import N from "./getInputNumer.js";
 
 const generatePrimeNumbers = (N) => {
   let primeNumbers = [];
   return primeNumbers;
 };
 
-module.exports = generatePrimeNumbers;
+export default generatePrimeNumbers;

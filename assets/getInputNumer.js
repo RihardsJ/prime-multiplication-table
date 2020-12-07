@@ -3,4 +3,4 @@ const getInputNumer = (input) => {
   return N;
 };
 
-module.exports = getInputNumer;
+export default getInputNumer;

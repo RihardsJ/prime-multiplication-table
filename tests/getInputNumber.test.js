@@ -1,4 +1,4 @@
-const getInputNumber = require("../assets/getInputNumer");
+import getInputNumber from "../assets/getInputNumer";
 
 describe("Input Number tests: ", () => {
   // test if function exists
@@ -7,7 +7,7 @@ describe("Input Number tests: ", () => {
   });
 
   test("numeric value of input should not be changed", () => {
-    expect(getInputNumber(55).toEqual(55));
+    expect(getInputNumber(55)).toEqual(55);
   });
 
   test("should recieve a string integer and return number", () => {
@@ -15,7 +15,7 @@ describe("Input Number tests: ", () => {
   });
 
   test("input should be round down nearest integer", () => {
-    expoct(getInputNumber(21.1234).toEqual(21));
+    expect(getInputNumber(21.1234)).toEqual(21);
   });
 
   test("input should be positive number", () => {
@@ -25,6 +25,6 @@ describe("Input Number tests: ", () => {
   });
 
   test("input should be positive number", () => {
-    expect(getInputNumber(-20)).toThrowErro("Error! Should should be bigger than 1");
+    expect(getInputNumber(-20)).toThrowError("Error! Should should be bigger than 1");
   });
 });
