@@ -1,0 +1,25 @@
+{
+  "name": "prime-multiplication-table",
+  "version": "1.0.0",
+  "description": "- [About the project](#About-the-project)\r - [Built with](#Built-with)\r - [I am pleased with](#I-am-pleased-with)\r - [Further development](#Further-development)\r - [Perfrormance & Known issues](#Perfrormance-&-Known-issues)\r - [References](#References)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "collectCoverage": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RihardsJ/prime-multiplication-table.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RihardsJ/prime-multiplication-table/issues"
+  },
+  "homepage": "https://github.com/RihardsJ/prime-multiplication-table#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
