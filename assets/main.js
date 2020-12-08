@@ -1,6 +1,7 @@
 import getInputNumer from "./getInputNumer.js";
 import generatePrimeNumbers from "./primeNumbers.js";
 import multiplicationTable from "./multiplicationTable.js";
+import displayMuiltiplicationTable from "./displayMultiplicatoinTable.js";
 
 const form = document.querySelector("#userForm");
 
@@ -16,12 +17,12 @@ form.addEventListener("submit", (e) => {
     throwNewError(N);
   } else {
     const arrayOfPrimeNumbers = generatePrimeNumbers(N);
-    multiplicationTable(arrayOfPrimeNumbers);
-    console.log(multiplicationTable(arrayOfPrimeNumbers));
+    const table = multiplicationTable(arrayOfPrimeNumbers);
+    displayMuiltiplicationTable(table);
+    console.log(table);
   }
 });
 
-// throwNewErrorFunction
 const throwNewError = (error) => {
   console.error(error);
 };
