@@ -17,6 +17,7 @@ form.addEventListener("submit", (e) => {
   } else {
     const arrayOfPrimeNumbers = generatePrimeNumbers(N);
     multiplicationTable(arrayOfPrimeNumbers);
+    console.log(multiplicationTable(arrayOfPrimeNumbers));
   }
 });
 
