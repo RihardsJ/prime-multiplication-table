@@ -26,6 +26,6 @@ describe("multiplication table function", () => {
 
   //testing only last element sample
   test("large multiplication table", () => {
-    expect(multiplicationTable([2, 3, 5, 7, 11, 13, 17, 19, 23, 29])[11][11]).toBe(841);
+    expect(multiplicationTable([2, 3, 5, 7, 11, 13, 17, 19, 23, 29])[10][10]).toBe(841);
   });
 });
