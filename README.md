@@ -36,7 +36,9 @@ Inspect more bugs. Optimze the code. Add velocity calculations to issues and com
 
 ## Performance & Known issues
 
-    Does not perform well with N > 10000000 values
+    Does not perform well with N > 10000000 values - testing
+    Does not perform well with N > 10000 values - browser
+    
 
 ## References
 
