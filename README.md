@@ -19,7 +19,7 @@ In this coding exercies I am creating a static page where user is able to enter 
 
 ## Built with
 
-Jest, GitHub Actions, Javascript, HTML, CSS, Figma, VScode, Babel
+Jest, GitHub Actions, Javascript, HTML, CSS, Figma, VScode, Babel, Netlify
 
 ## I am pleased with
 
@@ -32,6 +32,7 @@ Jest, GitHub Actions, Javascript, HTML, CSS, Figma, VScode, Babel
 
 Consider recursive solutions for getPrimeNumber and multiplicationTable functions which may increase the performance.
 Different table types can be created such as: simple multiplication table, even number multiplication table etc.
+Inspect more bugs. Optimze the code. Add velocity calculations to issues and compare with estimates.
 
 ## Performance & Known issues
 
