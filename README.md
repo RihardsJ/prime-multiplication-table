@@ -32,7 +32,7 @@ Jest, GitHub Actions, Javascript, HTML, CSS, Figma, VScode, Babel, Netlify
 
 Consider recursive solutions for getPrimeNumber and multiplicationTable functions which may increase the performance.
 Different table types can be created such as: simple multiplication table, even number multiplication table etc.
-Inspect more bugs. Optimze the code. Add velocity calculations to issues and compare with estimates.
+Inspect more bugs. Optimze the code. Add velocity calculations to issues and compare with estimates. Add error handling.
 
 ## Performance & Known issues
 
