@@ -1,0 +1,50 @@
+:root {
+  --text-colour: hsl(225, 24%, 27%);
+  --background-colour: hsl(38, 98%, 82%);
+  --button-colour: hsl(0, 100%, 72%);
+  --form-bg-colour: hsl(90, 10%, 92%);
+
+  --font-family-text: "Aldrich", sans-serif;
+  --font-family-numbers: "Rock Salt", cursive;
+}
+
+body {
+  color: var(--text-colour);
+  background-color: var(--background-colour);
+  font-family: var(--font-family-text);
+}
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+}
+
+#userForm {
+  display: flex;
+  justify-content: center;
+
+  width: 320px;
+  border-radius: 5px;
+  background-color: var(--form-bg-colour);
+  box-shadow: 10px 10px 5px 0;
+  margin-bottom: 3ch;
+  padding: 1rem 0.5rem;
+}
+
+#submitButton {
+  border-radius: 5px;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  padding: 0.4rem;
+  background-color: var(--button-colour);
+}
+
+#input {
+  background-color: transparent;
+  font-size: 2rem;
+  width: 100px;
+}
+
+#multiplicationTable {
+  font-family: var(--font-family-numbers);
+}
