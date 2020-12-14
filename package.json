@@ -4,7 +4,8 @@
   "description": "User inputs N number and recieves a multiplication table of prime numbers",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "testPrimeNumbers": "npm run test primeNumbers.test.js"
   },
   "jest": {
     "collectCoverage": true
