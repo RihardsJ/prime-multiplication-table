@@ -12,14 +12,14 @@ describe("Prime Numbers Test", () => {
   });
 
   test("test small prime numbers", () => {
-    expect(primeNumbers(10)).toEqual([2, 3, 5, 7]);
+    expect(primeNumbers(10)).toEqual([2, 3, 5, 7, 11, 13, 17, 19, 23, 29]);
   });
 
   test("test medium prime numbers", () => {
-    expect(primeNumbers(500)).toEqual(array.medium);
+    expect(primeNumbers(100)).toEqual(array.medium);
   });
 
   test("test large size prime numbers", () => {
-    expect(primeNumbers(10000)).toEqual(array.large);
+    expect(primeNumbers(1000)).toEqual(array.large);
   });
 });
