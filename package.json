@@ -2,8 +2,9 @@
   "name": "prime-multiplication-table",
   "version": "1.0.0",
   "description": "User inputs N number and recieves a multiplication table of prime numbers",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "jest",
     "testPrimeNumbers": "npm run test primeNumbers.test.js"
   },
