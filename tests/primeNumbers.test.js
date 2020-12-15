@@ -12,10 +12,12 @@ describe("Prime Numbers Test", () => {
   });
 
   test("test small prime numbers", () => {
+    console.log("N = 10", primeNumbers(10));
     expect(primeNumbers(10)).toEqual([2, 3, 5, 7, 11, 13, 17, 19, 23, 29]);
   });
 
   test("test medium prime numbers", () => {
+    console.log("N = 100", primeNumbers(100));
     expect(primeNumbers(100)).toEqual(array.medium);
   });
 
